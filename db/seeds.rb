@@ -1,7 +1,7 @@
-User.create!(name: "Edwesh",
-	     email: "edwesh@gmail.com",
-	     password: 				"521418",
-             password_confirmation:		"521418",
+User.create!(name: "Admin",
+	     email: "admin@abc.com",
+	     password: 				"123456",
+             password_confirmation:		"123456",
 	     admin: 	true,
 	     activated: true,
 	     activated_at: Time.zone.now)
